@@ -1,4 +1,4 @@
-# 🦉 Orangewood Robotics Simulation Assignment
+#  Orangewood Robotics Simulation Assignment
 
 ## 📌 Objective
 
@@ -29,7 +29,6 @@ ros2_ws/
 │   ├── owl_moveit_config/         # MoveIt2 config package
 ├── install/, build/, log/         # ROS 2 workspace build artifacts
 ├── README.md                      # Readme 
-├── frames_*.pdf / *.gv            # TF tree diagrams 
 ```
 
 ---
