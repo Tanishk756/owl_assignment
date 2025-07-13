@@ -1,0 +1,257 @@
+[0.000000] (-) TimerEvent: {}
+[0.000454] (-) JobUnselected: {'identifier': 'owl_moveit_config'}
+[0.000561] (owl_description) JobQueued: {'identifier': 'owl_description', 'dependencies': OrderedDict()}
+[0.000619] (owl_description) JobStarted: {'identifier': 'owl_description'}
+[0.015810] (owl_description) JobProgress: {'identifier': 'owl_description', 'progress': 'cmake'}
+[0.017341] (owl_description) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/owl_description', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/owl_description'], 'cwd': '/root/ros2_ws/build/owl_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'DESKTOP-TATKG8O'), ('WSL_INTEROP', '/run/WSL/6174_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Dell/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Dell/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Dell/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Dell/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/intelFPGA_pro/23.4/questa_fse/win64:/mnt/c/Windows/SysWow64/:/mnt/c/Users/Dell/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/owl_moveit_config:/root/ros2_ws/install/owl_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/root/ros2_ws/install/owl_description/share/owl_description/meshes'), ('PWD', '/root/ros2_ws/build/owl_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/owl_moveit_config:/root/ros2_ws/install/owl_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.098280] (-) TimerEvent: {}
+[0.198815] (-) TimerEvent: {}
+[0.256651] (owl_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.298944] (-) TimerEvent: {}
+[0.399412] (-) TimerEvent: {}
+[0.499919] (-) TimerEvent: {}
+[0.517071] (owl_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.600060] (-) TimerEvent: {}
+[0.610201] (owl_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.700206] (-) TimerEvent: {}
+[0.709979] (owl_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.717166] (owl_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.718958] (owl_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.720042] (owl_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.726392] (owl_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.800354] (-) TimerEvent: {}
+[0.837988] (owl_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.845742] (owl_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.846063] (owl_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.846429] (owl_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.887241] (owl_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.900606] (-) TimerEvent: {}
+[1.001079] (-) TimerEvent: {}
+[1.070795] (owl_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.101198] (-) TimerEvent: {}
+[1.201605] (-) TimerEvent: {}
+[1.250978] (owl_description) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[1.301746] (-) TimerEvent: {}
+[1.395670] (owl_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.401844] (-) TimerEvent: {}
+[1.404432] (owl_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.419677] (owl_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.444593] (owl_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.482313] (owl_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.502104] (-) TimerEvent: {}
+[1.602690] (-) TimerEvent: {}
+[1.639707] (owl_description) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.641907] (owl_description) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.642078] (owl_description) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.702973] (-) TimerEvent: {}
+[1.771822] (owl_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.780896] (owl_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.803296] (-) TimerEvent: {}
+[1.903682] (-) TimerEvent: {}
+[2.004044] (-) TimerEvent: {}
+[2.104399] (-) TimerEvent: {}
+[2.204767] (-) TimerEvent: {}
+[2.235762] (owl_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.304904] (-) TimerEvent: {}
+[2.405344] (-) TimerEvent: {}
+[2.506047] (-) TimerEvent: {}
+[2.606447] (-) TimerEvent: {}
+[2.632239] (owl_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.706572] (-) TimerEvent: {}
+[2.806943] (-) TimerEvent: {}
+[2.907311] (-) TimerEvent: {}
+[3.007700] (-) TimerEvent: {}
+[3.108075] (-) TimerEvent: {}
+[3.208475] (-) TimerEvent: {}
+[3.308845] (-) TimerEvent: {}
+[3.315949] (owl_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.333500] (owl_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.409083] (-) TimerEvent: {}
+[3.463348] (owl_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.463590] (owl_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.509260] (-) TimerEvent: {}
+[3.559048] (owl_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.560013] (owl_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.609551] (-) TimerEvent: {}
+[3.709992] (-) TimerEvent: {}
+[3.810399] (-) TimerEvent: {}
+[3.910845] (-) TimerEvent: {}
+[4.011206] (-) TimerEvent: {}
+[4.111607] (-) TimerEvent: {}
+[4.211959] (-) TimerEvent: {}
+[4.312289] (-) TimerEvent: {}
+[4.316543] (owl_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.323322] (owl_description) StdoutLine: {'line': b'-- Generating done\n'}
+[4.326408] (owl_description) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/owl_description\n'}
+[4.335059] (owl_description) CommandEnded: {'returncode': 0}
+[4.336984] (owl_description) JobProgress: {'identifier': 'owl_description', 'progress': 'build'}
+[4.337042] (owl_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/owl_description', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/owl_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'DESKTOP-TATKG8O'), ('WSL_INTEROP', '/run/WSL/6174_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Dell/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Dell/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Dell/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Dell/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/intelFPGA_pro/23.4/questa_fse/win64:/mnt/c/Windows/SysWow64/:/mnt/c/Users/Dell/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/owl_moveit_config:/root/ros2_ws/install/owl_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/root/ros2_ws/install/owl_description/share/owl_description/meshes'), ('PWD', '/root/ros2_ws/build/owl_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/owl_moveit_config:/root/ros2_ws/install/owl_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[4.378226] (owl_description) CommandEnded: {'returncode': 0}
+[4.379148] (owl_description) JobProgress: {'identifier': 'owl_description', 'progress': 'install'}
+[4.387602] (owl_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/owl_description'], 'cwd': '/root/ros2_ws/build/owl_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'DESKTOP-TATKG8O'), ('WSL_INTEROP', '/run/WSL/6174_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Dell/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Dell/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Dell/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Dell/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/intelFPGA_pro/23.4/questa_fse/win64:/mnt/c/Windows/SysWow64/:/mnt/c/Users/Dell/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/owl_moveit_config:/root/ros2_ws/install/owl_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/root/ros2_ws/install/owl_description/share/owl_description/meshes'), ('PWD', '/root/ros2_ws/build/owl_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/owl_moveit_config:/root/ros2_ws/install/owl_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[4.394401] (owl_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.398766] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//launch\n'}
+[4.400068] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//launch/gazebo.launch.py\n'}
+[4.400359] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//launch/6.5\n'}
+[4.400503] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//launch/6.5/visualize_6.5_rviz.launch.py\n'}
+[4.401295] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//launch/6.5/visualize_6.5_pneumatic_rviz.launch.py\n'}
+[4.402009] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//launch/6.5/visualize_6.5_vacuum_rviz.launch.py\n'}
+[4.402692] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//launch/6.5/visualize_6.5_robotiq2f85_rviz.launch.py\n'}
+[4.403128] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf\n'}
+[4.403607] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf/grippers\n'}
+[4.403902] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf/grippers/robotiq2f85\n'}
+[4.404208] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf/grippers/robotiq2f85/robotiq2f85.urdf.xacro\n'}
+[4.404770] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf/grippers/robotiq2f85/robotiq2f85.gazebo.xacro\n'}
+[4.405209] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf/grippers/pneumatic\n'}
+[4.405668] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf/grippers/pneumatic/pneumatic.xacro\n'}
+[4.406079] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf/grippers/vacuum\n'}
+[4.406562] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf/grippers/vacuum/vacuum_gripper.xacro\n'}
+[4.407110] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf/6.5\n'}
+[4.407652] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf/6.5/owl.xacro\n'}
+[4.407892] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf/6.5/realsense_camera.xacro\n'}
+[4.408554] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf/6.5/robot_vacuum.xacro\n'}
+[4.409023] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf/6.5/robot_pneumatic.xacro\n'}
+[4.409675] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf/6.5/robot.xacro\n'}
+[4.410388] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf/6.5/gazebo\n'}
+[4.411391] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf/6.5/gazebo/gazebo_6.5_control.xacro\n'}
+[4.412036] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//urdf/6.5/robot_robotiq2f85.xacro\n'}
+[4.412424] (-) TimerEvent: {}
+[4.413078] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//rviz\n'}
+[4.414722] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//rviz/robot.rviz\n'}
+[4.415517] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes\n'}
+[4.416135] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers\n'}
+[4.416503] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85\n'}
+[4.416812] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/visual\n'}
+[4.417167] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/visual/kinova_robotiq_coupler.dae\n'}
+[4.419179] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/visual/robotiq_85_base_link.dae\n'}
+[4.432099] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/visual/robotiq_85_knuckle_link.dae\n'}
+[4.433280] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/visual/robotiq_85_inner_knuckle_link.dae\n'}
+[4.434832] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/visual/robotiq_85_finger_link.dae\n'}
+[4.436517] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/visual/robotiq_85_finger_tip_link.dae\n'}
+[4.438435] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/collision\n'}
+[4.438842] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/collision/robotiq_85_inner_knuckle_link.stl\n'}
+[4.440289] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/collision/robotiq_85_finger_link.stl\n'}
+[4.441610] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/collision/kinova_robotiq_coupler.stl\n'}
+[4.444700] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/collision/robotiq_85_finger_tip_link.stl\n'}
+[4.447276] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/collision/robotiq_85_base_link.stl\n'}
+[4.455397] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/collision/robotiq_85_knuckle_link.stl\n'}
+[4.456955] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/pneumatic\n'}
+[4.457389] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/pneumatic/pneumatic.stl\n'}
+[4.459167] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/vacuum\n'}
+[4.459974] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/vacuum/base_link.stl\n'}
+[4.462784] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5\n'}
+[4.464081] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual\n'}
+[4.464473] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/holder\n'}
+[4.464723] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/holder/ARUCO_HOLDER.STL\n'}
+[4.466890] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/holder/Camera_Ur5e_gripper_Mount_Disc.STL\n'}
+[4.468048] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/holder/MOUNT.STL\n'}
+[4.471786] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera_stand\n'}
+[4.472161] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera_stand/robogpt_stand\n'}
+[4.472386] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera_stand/robogpt_stand/robogpt_setup.png\n'}
+[4.474453] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera_stand/robogpt_stand/robogpt_stand.stl\n'}
+[4.481505] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera_stand/camera_stand\n'}
+[4.482182] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera_stand/camera_stand/camera_stand.STL\n'}
+[4.512615] (-) TimerEvent: {}
+[4.516700] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/owl_robot\n'}
+[4.517091] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/owl_robot/link1.stl\n'}
+[4.522034] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/owl_robot/shoulder_link.stl\n'}
+[4.527094] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/owl_robot/elbow_link.stl\n'}
+[4.532404] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/owl_robot/end_effector_link.stl\n'}
+[4.534033] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/owl_robot/base_link.stl\n'}
+[4.537637] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/owl_robot/link2.stl\n'}
+[4.546897] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/owl_robot/w2w3_link.stl\n'}
+[4.551247] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper\n'}
+[4.551618] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq\n'}
+[4.551862] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/visual\n'}
+[4.552084] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/visual/kinova_robotiq_coupler.dae\n'}
+[4.554911] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/visual/robotiq_85_base_link.dae\n'}
+[4.567168] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/visual/robotiq_85_knuckle_link.dae\n'}
+[4.568423] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/visual/robotiq_85_inner_knuckle_link.dae\n'}
+[4.570065] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/visual/robotiq_85_finger_link.dae\n'}
+[4.571566] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/visual/robotiq_85_finger_tip_link.dae\n'}
+[4.573431] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/collision\n'}
+[4.573838] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/collision/robotiq_85_inner_knuckle_link.stl\n'}
+[4.575352] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/collision/robotiq_85_finger_link.stl\n'}
+[4.577695] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/collision/kinova_robotiq_coupler.stl\n'}
+[4.580884] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/collision/robotiq_85_finger_tip_link.stl\n'}
+[4.582617] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/collision/robotiq_85_base_link.stl\n'}
+[4.590301] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/collision/robotiq_85_knuckle_link.stl\n'}
+[4.591780] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/pneumatic\n'}
+[4.592202] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/pneumatic/ANG_GRIPPER.STL\n'}
+[4.594353] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/spring_loaded\n'}
+[4.594742] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/spring_loaded/base_link.STL\n'}
+[4.602173] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera\n'}
+[4.602903] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera/d435\n'}
+[4.603227] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera/d435/d435.dae\n'}
+[4.612749] (-) TimerEvent: {}
+[4.659084] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera/d435/d435.stl\n'}
+[4.664379] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera/d415\n'}
+[4.664765] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera/d415/d415.stl\n'}
+[4.664980] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision\n'}
+[4.665147] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/holder\n'}
+[4.665368] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/holder/ARUCO_HOLDER.STL\n'}
+[4.667640] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/holder/Camera_Ur5e_gripper_Mount_Disc.STL\n'}
+[4.668859] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/holder/MOUNT.STL\n'}
+[4.671980] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera_stand\n'}
+[4.672355] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera_stand/robogpt_stand\n'}
+[4.672592] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera_stand/robogpt_stand/robogpt_setup.png\n'}
+[4.674749] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera_stand/robogpt_stand/robogpt_stand.stl\n'}
+[4.681397] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera_stand/camera_stand\n'}
+[4.681782] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera_stand/camera_stand/camera_stand.STL\n'}
+[4.712512] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/owl_robot\n'}
+[4.712803] (-) TimerEvent: {}
+[4.713049] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/owl_robot/link1.stl\n'}
+[4.717615] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/owl_robot/shoulder_link.stl\n'}
+[4.721901] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/owl_robot/elbow_link.stl\n'}
+[4.726320] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/owl_robot/end_effector_link.stl\n'}
+[4.727787] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/owl_robot/base_link.stl\n'}
+[4.731717] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/owl_robot/link2.stl\n'}
+[4.740495] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/owl_robot/w2w3_link.stl\n'}
+[4.744500] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper\n'}
+[4.744891] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq\n'}
+[4.745148] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/visual\n'}
+[4.745377] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/visual/kinova_robotiq_coupler.dae\n'}
+[4.747758] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/visual/robotiq_85_base_link.dae\n'}
+[4.759012] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/visual/robotiq_85_knuckle_link.dae\n'}
+[4.760351] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/visual/robotiq_85_inner_knuckle_link.dae\n'}
+[4.761762] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/visual/robotiq_85_finger_link.dae\n'}
+[4.763148] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/visual/robotiq_85_finger_tip_link.dae\n'}
+[4.765000] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/collision\n'}
+[4.765378] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/collision/robotiq_85_inner_knuckle_link.stl\n'}
+[4.766761] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/collision/robotiq_85_finger_link.stl\n'}
+[4.768214] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/collision/kinova_robotiq_coupler.stl\n'}
+[4.770041] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/collision/robotiq_85_finger_tip_link.stl\n'}
+[4.771445] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/collision/robotiq_85_base_link.stl\n'}
+[4.779155] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/collision/robotiq_85_knuckle_link.stl\n'}
+[4.780241] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/pneumatic\n'}
+[4.780685] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/pneumatic/ANG_GRIPPER.STL\n'}
+[4.782142] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/spring_loaded\n'}
+[4.782467] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/spring_loaded/base_link.STL\n'}
+[4.789075] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera\n'}
+[4.789545] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera/d435\n'}
+[4.789760] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera/d435/d435.dae\n'}
+[4.812965] (-) TimerEvent: {}
+[4.843777] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera/d435/d435.stl\n'}
+[4.847567] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera/d415\n'}
+[4.847964] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera/d415/d415.stl\n'}
+[4.848103] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//env_hooks\n'}
+[4.848343] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description//env_hooks/owl_description.sh.in\n'}
+[4.848744] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description/environment/owl_description.sh\n'}
+[4.849456] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/ament_index/resource_index/package_run_dependencies/owl_description\n'}
+[4.849813] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/ament_index/resource_index/parent_prefix_path/owl_description\n'}
+[4.850005] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description/environment/ament_prefix_path.sh\n'}
+[4.850153] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description/environment/ament_prefix_path.dsv\n'}
+[4.850284] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description/environment/path.sh\n'}
+[4.850420] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description/environment/path.dsv\n'}
+[4.850571] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description/local_setup.bash\n'}
+[4.850711] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description/local_setup.sh\n'}
+[4.850845] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description/local_setup.zsh\n'}
+[4.850983] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description/local_setup.dsv\n'}
+[4.851123] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description/package.dsv\n'}
+[4.851471] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/ament_index/resource_index/packages/owl_description\n'}
+[4.851807] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description/cmake/owl_descriptionConfig.cmake\n'}
+[4.851941] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description/cmake/owl_descriptionConfig-version.cmake\n'}
+[4.852079] (owl_description) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/owl_description/share/owl_description/package.xml\n'}
+[4.854339] (owl_description) CommandEnded: {'returncode': 0}
+[4.873588] (owl_description) JobEnded: {'identifier': 'owl_description', 'rc': 0}
+[4.874896] (-) EventReactorShutdown: {}

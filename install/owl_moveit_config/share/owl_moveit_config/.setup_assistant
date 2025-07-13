@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: owl_description
+    relative_path: urdf/6.5/robot_robotiq2f85.xacro
+  srdf:
+    relative_path: config/owl_robot.srdf
+  package_settings:
+    author_name: Tanishk Singhal
+    author_email: tanishksinghal6285@gmail.com
+    generated_timestamp: 1752395155
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+
+    <!-- Light -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Table -->
+    <include>
+      <uri>model://table</uri>
+      <name>test_table</name>
+      <pose>1 0 0.3 0 0 0</pose> <!-- x y z r p y -->
+    </include>
+
+  </world>
+</sdf>
+

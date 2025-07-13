@@ -1,0 +1,127 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_ws/build/owl_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//launch/6.5/visualize_6.5_pneumatic_rviz.launch.py
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//launch/6.5/visualize_6.5_robotiq2f85_rviz.launch.py
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//launch/6.5/visualize_6.5_rviz.launch.py
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//launch/6.5/visualize_6.5_vacuum_rviz.launch.py
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//launch/gazebo.launch.py
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//urdf/6.5/gazebo/gazebo_6.5_control.xacro
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//urdf/6.5/owl.xacro
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//urdf/6.5/owl_ros2_control.xacro
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//urdf/6.5/realsense_camera.xacro
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//urdf/6.5/robot.xacro
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//urdf/6.5/robot_pneumatic.xacro
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//urdf/6.5/robot_robotiq2f85.xacro
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//urdf/6.5/robot_vacuum.xacro
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//urdf/grippers/pneumatic/pneumatic.xacro
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//urdf/grippers/robotiq2f85/robotiq2f85.gazebo.xacro
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//urdf/grippers/robotiq2f85/robotiq2f85.urdf.xacro
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//urdf/grippers/vacuum/vacuum_gripper.xacro
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//rviz/robot.rviz
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera/d415/d415.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera/d435/d435.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera/d435/d435.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera_stand/camera_stand/camera_stand.STL
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera_stand/robogpt_stand/robogpt_setup.png
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/camera_stand/robogpt_stand/robogpt_stand.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/pneumatic/ANG_GRIPPER.STL
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/collision/kinova_robotiq_coupler.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/collision/robotiq_85_base_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/collision/robotiq_85_finger_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/collision/robotiq_85_finger_tip_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/collision/robotiq_85_inner_knuckle_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/collision/robotiq_85_knuckle_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/visual/kinova_robotiq_coupler.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/visual/robotiq_85_base_link.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/visual/robotiq_85_finger_link.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/visual/robotiq_85_finger_tip_link.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/visual/robotiq_85_inner_knuckle_link.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/robotiq/visual/robotiq_85_knuckle_link.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/gripper/spring_loaded/base_link.STL
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/holder/ARUCO_HOLDER.STL
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/holder/Camera_Ur5e_gripper_Mount_Disc.STL
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/holder/MOUNT.STL
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/owl_robot/base_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/owl_robot/elbow_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/owl_robot/end_effector_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/owl_robot/link1.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/owl_robot/link2.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/owl_robot/shoulder_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/collision/owl_robot/w2w3_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera/d415/d415.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera/d435/d435.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera/d435/d435.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera_stand/camera_stand/camera_stand.STL
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera_stand/robogpt_stand/robogpt_setup.png
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/camera_stand/robogpt_stand/robogpt_stand.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/pneumatic/ANG_GRIPPER.STL
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/collision/kinova_robotiq_coupler.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/collision/robotiq_85_base_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/collision/robotiq_85_finger_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/collision/robotiq_85_finger_tip_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/collision/robotiq_85_inner_knuckle_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/collision/robotiq_85_knuckle_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/visual/kinova_robotiq_coupler.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/visual/robotiq_85_base_link.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/visual/robotiq_85_finger_link.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/visual/robotiq_85_finger_tip_link.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/visual/robotiq_85_inner_knuckle_link.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/robotiq/visual/robotiq_85_knuckle_link.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/gripper/spring_loaded/base_link.STL
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/holder/ARUCO_HOLDER.STL
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/holder/Camera_Ur5e_gripper_Mount_Disc.STL
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/holder/MOUNT.STL
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/owl_robot/base_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/owl_robot/elbow_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/owl_robot/end_effector_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/owl_robot/link1.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/owl_robot/link2.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/owl_robot/shoulder_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/6.5/visual/owl_robot/w2w3_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/pneumatic/pneumatic.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/collision/kinova_robotiq_coupler.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/collision/robotiq_85_base_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/collision/robotiq_85_finger_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/collision/robotiq_85_finger_tip_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/collision/robotiq_85_inner_knuckle_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/collision/robotiq_85_knuckle_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/visual/kinova_robotiq_coupler.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/visual/robotiq_85_base_link.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/visual/robotiq_85_finger_link.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/visual/robotiq_85_finger_tip_link.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/visual/robotiq_85_inner_knuckle_link.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/robotiq2f85/visual/robotiq_85_knuckle_link.dae
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//meshes/grippers/vacuum/base_link.stl
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description//env_hooks/owl_description.sh.in
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description/environment/owl_description.sh
+-- Symlinking: /root/ros2_ws/install/owl_description/share/ament_index/resource_index/package_run_dependencies/owl_description
+-- Symlinking: /root/ros2_ws/install/owl_description/share/ament_index/resource_index/parent_prefix_path/owl_description
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description/environment/path.sh
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description/environment/path.dsv
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description/local_setup.bash
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description/local_setup.sh
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description/local_setup.zsh
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description/local_setup.dsv
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description/package.dsv
+-- Symlinking: /root/ros2_ws/install/owl_description/share/ament_index/resource_index/packages/owl_description
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description/cmake/owl_descriptionConfig.cmake
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description/cmake/owl_descriptionConfig-version.cmake
+-- Symlinking: /root/ros2_ws/install/owl_description/share/owl_description/package.xml
