@@ -111,7 +111,7 @@ And shows top-K grasp poses using `matplotlib`.
 - [URDF / XACRO](https://wiki.ros.org/xacro)
 
 ### 🧠 Grasp Prediction:
-- [GraspNet Baseline](https://github.com/NVlabs/graspnet-baseline) (MIT License)
+- [GraspNet Baseline](https://github.com/graspnet/graspnet-baseline) (MIT License)
 
 ---
 
